@@ -66,5 +66,5 @@ O sistema segue os seguintes passos para processar os dados:
 4. APIs disponíveis:
    - **API 1**: Retorna todos os dados com paginação. Você pode acessar a API através do endpoint `/foods/` e especificar a página desejada usando o parâmetro `page`.
    - **API 2**: Retorna os dados correspondentes a um código de barras. Você pode acessar a API através do endpoint `/foods/{barcode}`, substituindo `{barcode}` pelo código de barras desejado.
-
+   - **API 3**: Retorna Fullstack Challenge 20201026  API através do endpoint `/`
 A aplicação pode ser acessada em `http://localhost:8000/docs`, onde você encontrará informações detalhadas sobre os endpoints e como utilizá-los.
