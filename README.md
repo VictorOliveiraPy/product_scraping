@@ -1,3 +1,5 @@
+``` This is a challenge by Coodesh```
+
 # Configuração e Execução
 
 Este arquivo contém instruções para configurar e executar o aplicativo, incluindo a inicialização do banco de dados no Docker, a execução dos testes e a execução do arquivo principal (`main.py`).
@@ -68,3 +70,5 @@ O sistema segue os seguintes passos para processar os dados:
    - **API 2**: Retorna os dados correspondentes a um código de barras. Você pode acessar a API através do endpoint `/foods/{barcode}`, substituindo `{barcode}` pelo código de barras desejado.
    - **API 3**: Retorna Fullstack Challenge 20201026  API através do endpoint `/`
 A aplicação pode ser acessada em `http://localhost:8000/docs`, onde você encontrará informações detalhadas sobre os endpoints e como utilizá-los.
+
+
