@@ -1,10 +1,8 @@
 import subprocess
-from datetime import datetime, timedelta
+import time
+from datetime import timedelta
 
 import pytz
-import schedule
-import time
-
 from apscheduler.schedulers.background import BackgroundScheduler
 
 sp_timezone = pytz.timezone('America/Sao_Paulo')

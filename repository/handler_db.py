@@ -17,7 +17,7 @@ class MongoPipeline:
             food = list(self.mongo_db[self.collection_name].find({}, {'_id': 0}).limit(limit))
             return food
         except Exception as e:
-            print(f"Error occurred while fetching brands from the database: {str(e)}")
+            print(f"Error occurred while fetching foods from the database: {str(e)}")
             return None
 
     def get_food(self, barcode: str):

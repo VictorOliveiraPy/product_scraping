@@ -38,7 +38,7 @@ class OpenFoodSpider(scrapy.Spider):
                 "href": brand.xpath('./@href').get(),
                 "name": brand.xpath('./text()').get(),
             } for brand in response.xpath('//*[@id="field_categories_value"]/a[@class="tag well_known"]')],
-            imported_t=datetime.now().isoformat(),
+            imported_at=datetime.now().isoformat(),
             status="imported"
         )
 

@@ -14,6 +14,6 @@ class ScrapingItem(scrapy.Item):
     brands = scrapy.Field()
     packaging = scrapy.Field()
     categories = scrapy.Field()
-    imported_t = scrapy.Field()
+    imported_at = scrapy.Field()
     _id = scrapy.Field()
     status = scrapy.Field()
